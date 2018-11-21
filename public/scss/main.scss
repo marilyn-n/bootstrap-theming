@@ -1,6 +1,14 @@
 @import "../bootstrap/bootstrap";
+@import "./vars";
 
 
 body {
-  background-color: pink;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: rgb(255, 250, 247);
+}
+
+.navbar {
+  background-color: $light-grey !important;
 }
