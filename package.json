@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-theming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marilyn-n/bootstrap-theming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marilyn-n/bootstrap-theming/issues"
+  },
+  "homepage": "https://github.com/marilyn-n/bootstrap-theming#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.18.6"
+  }
+}
