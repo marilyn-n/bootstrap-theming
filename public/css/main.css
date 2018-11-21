@@ -5930,3 +5930,10 @@ body {
 
 .navbar {
   background-color: #b2c1cf !important; }
+  .navbar .nav-link {
+    color: white;
+    font-weight: bolder; }
+    .navbar .nav-link.disabled {
+      color: #563b7e; }
+    .navbar .nav-link:hover {
+      color: black; }

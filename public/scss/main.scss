@@ -11,4 +11,16 @@ body {
 
 .navbar {
   background-color: $light-grey !important;
+  .nav-link {
+    color:white;
+    font-weight: bolder;
+    &.disabled {
+      color: $purple;
+    }
+    &:hover {
+     color: black;
+    }
+  } 
 }
+
+
