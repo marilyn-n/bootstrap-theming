@@ -6339,4 +6339,12 @@ body {
 
 #middle-section {
   margin-top: 100px;
-  background-color: #d7d8f3; }
+  background-color: #d7d8f3;
+  padding: 30px; }
+  #middle-section .align-right {
+    margin-left: 65px; }
+  #middle-section .card {
+    margin-bottom: 30px; }
+    #middle-section .card button {
+      margin-left: 335px;
+      margin-top: 10px; }
